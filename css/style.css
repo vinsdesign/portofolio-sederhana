@@ -6,8 +6,7 @@
 body{
     background-color: #232323;
     font-family: 'Montserrat', sans-serif;
-    width: 1150px;
-    margin: auto;
+    
 }
 
 /* header */
@@ -17,6 +16,8 @@ header .navbar{
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    width: 1150px;
+    margin: auto;
 }
 header .navbar .navbar-brand img{
     width: 70px;
@@ -46,11 +47,15 @@ header .navbar .sosial-media li a:hover{
 /* navigation-bar */
 /* header */
 
+/* main */
+/* home */
 main #home{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 500px;
+    height: 600px;
+    width: 1150px;
+    margin: auto;
 }
 main #home .point-header h2{
     color: #4B4B4B;
@@ -84,3 +89,47 @@ main #home .point-header a:hover{
 main #home .picture1 img{
     width: 400px;
 }
+/* end-home */
+
+/* about me */
+main #about-me {
+    height: 650px;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+main #about-me h1{
+    color: #F07246;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2em;
+}
+main #about-me .content2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+}
+main #about-me .content2 .picture2 img{
+    width: 500px;
+    margin-right: 50px;
+}
+main #about-me article p{
+    color: #fff;
+    font-weight: 500;
+    line-height: 140%;
+}
+main #about-me article p>span{
+    color: #F07246;
+    font-weight: 800;
+}
+main #about-me article .sosial-media li a{
+    color: #fff;
+    font-size: 1.7em;
+}
+main #about-me article .sosial-media li a:hover{
+    color: #F07246;
+    transition: 0.5s;
+}
+
