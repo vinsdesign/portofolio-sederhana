@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #232323;
+    font-family: 'Montserrat', sans-serif;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+header .navbar .navbar-brand img{
+    width: 70px;
+}
+header .navbar .navbar-nav, .sosial-media{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+header .navbar .navbar-nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+header .navbar .navbar-nav li a:hover{
+    color: #F07246;
+}
+header .navbar .sosial-media li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+header .navbar .sosial-media li a:hover{
+    color: #F07246;
+}
