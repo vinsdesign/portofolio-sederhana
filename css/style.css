@@ -27,6 +27,7 @@ header .navbar .navbar-nav li a{
 }
 header .navbar .navbar-nav li a:hover{
     color: #F07246;
+    transition: 0.5s;
 }
 header .navbar .sosial-media li a{
     color: #fff;
@@ -35,4 +36,5 @@ header .navbar .sosial-media li a{
 }
 header .navbar .sosial-media li a:hover{
     color: #F07246;
+    transition: 0.5s;
 }
