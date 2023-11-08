@@ -19,7 +19,7 @@ header .navbar{
     width: 1150px;
     margin: auto;
 }
-header .navbar .navbar-brand img{
+header .navbar a>img{
     width: 70px;
 }
 header .navbar .navbar-nav, .sosial-media{
@@ -111,7 +111,7 @@ main #about-me .content2{
     width: 1150px;
     margin: auto;
 }
-main #about-me .content2 .picture2 img{
+main #about-me .content2 img{
     width: 500px;
     margin-right: 50px;
 }
